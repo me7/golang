@@ -1,14 +1,12 @@
-package main
+package magicgate
 
 import (
 	"fmt"
-	"log"
 	"net/http"
 )
 
-func main() {
+func init() {
 	http.HandleFunc("/", handler)
-	log.Fatal(http.ListenAndServe(":7749", nil))
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
