@@ -8,4 +8,4 @@
 * go app serve --> should run OK on localhost:8000 now
 * goto https://console.cloud.google.com/appengine and create new project name magic-gate
 * goapp deploy
-* see project at `your-app-name`.appspot.com
+* see project at `your-app-name`.appspot.com e.g. https://magic-gate-150208.appspot.com/
