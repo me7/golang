@@ -1,7 +1,7 @@
 package main
 
-//go:generate env GOARCH=386
-//go:generate env GOOS=linux
+//go:generate cmd /c set GOARCH=amd64
+//go:generate cmd /c set GOOS=linux
 //go:generate go build -ldflags "-s -w"
 //go:generate upx --best *.exe
 
