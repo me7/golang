@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	log.SetFlags(log.LstdFlags | log.Lshortfile)
+    log.SetFlags(log.LstdFlags|log.Lshortfile)
 
 	c, err := sql.Open("sqlite3", "db.sqlite3")
 	if c == nil || err != nil {

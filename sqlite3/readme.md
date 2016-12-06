@@ -1,0 +1,1 @@
+demo using github.com/mxk/go-sqlite/sqlite3

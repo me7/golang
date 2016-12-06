@@ -1,5 +1,7 @@
 package main
 
+//go:generate cat "HELLO"
+
 import (
 	"fmt"
 	"log"
