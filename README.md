@@ -1,3 +1,4 @@
+[](https://travis-ci.org/me7/golang.svg?branch=master)
 # golang
 Google go language knowledge repo
 
