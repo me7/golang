@@ -17,7 +17,8 @@ const (
 
 type (
 	message []byte
-	buffer  [windowSize]message
+	//buffer  [windowSize]message
+	buffer map[int]message
 )
 
 var worst time.Duration
@@ -41,7 +42,8 @@ func pushMsg(b *buffer, highID int) {
 }
 
 func main() {
-	var b buffer
+	//var b buffer
+	b := make(buffer)
 	for i := 0; i < msgCount; i++ {
 		pushMsg(&b, i)
 	}
