@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	windowSize = 200000
-	msgCount   = 1000000
+	windowSize = 2000000
+	msgCount   = 10000000
 )
 
 type (
