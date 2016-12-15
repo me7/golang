@@ -1,2 +1,4 @@
 language: go
 os: windows
+go:
+ - master
